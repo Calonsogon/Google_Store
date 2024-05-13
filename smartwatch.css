@@ -1,0 +1,130 @@
+body {
+  margin: 0%;
+}
+
+.container {
+  font-family: Inter, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 10px gray;
+  background-color: white;
+  color: #808990;
+  font-size: 16px;
+}
+
+.azulito {
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.icongoogle {
+  display: flex;
+  width: 30px;
+}
+
+#loguito {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0%;
+  margin-right: auto;
+}
+.menuprincipal {
+  margin-right: 20px;
+  padding: 0%;
+}
+
+.iconitos {
+  display: flex;
+}
+
+.iconito {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.Seeproduct {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+ color: #57626B;
+ font-family: Inter, sans-serif;
+}
+
+.flecha {
+  margin-right: 20px;
+}
+
+
+.imagenesredonditas {
+display: flex;
+flex-direction: column;
+margin-top: 18%;
+}
+
+
+#smartwatch{
+  width: 2%;
+ 
+}
+#smartwatch_01, #smartwatch_02, #smartwatch_03, #smartwatch_04 {
+  width: 5%;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-bottom: 2%;
+  margin-left: 3%;
+  
+}
+
+
+
+
+
+
+.pie {
+  font-family: Inter, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f8f9fb;
+  color: #7e898f;
+  font-size: 11px;
+}
+.redes{
+  margin-top: 20px;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #666;
+}
+.banderita {
+  justify-content: center;
+}
+.footer-terms {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0%;
+  color: #555;
+  margin: 0px 5px;
+}
+.terms {
+  margin-right: 20px;
+  padding: 0%;
+}
