@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,89 +7,82 @@
     <link rel="stylesheet" href="smartwatch.css">
 </head>
 <body>
-    <header>
-     <nav class="container">
+       <header>
+        <nav class="container">
+          <a href="#" id="loguito">
+          <img src="/logos iconos/google-logo.png"  alt="Icono Google" class="icongoogle">
+          </a >
+          <ul class="nav-links">
+           <li class="menuprincipal" id="Phones"><a href="#">Phones</a></li>
+           <li class="menuprincipal" id="Earbuds"><a href="#"></a></li>
+           <li class= "menuprincipal" id="Watches"><a href="#"><span class="azulito">Watches</span></a></li>
+           <li class= "menuprincipal" id="Smarthome"><a href="#">Smart Home</a></li>
+           <li class= "menuprincipal" id="Accessories"><a href="#">Accesories</a></li>
+           <li class="menuprincipal" id="Subscriptions"><a href="#">Subscriptions</a></li>
+          </ul>
+          <section>
+           <div class="iconitos">
             <a href="#">
-            <img src="/logos iconos/google-logo.png" id="logogoogle" alt="">
+            <img src="logos iconos/icons/Search.svg" id="Search" alt="Search" class="iconito">
             </a>
-            <ul class="nav-links">
-                <li class="menuprincipal" id="Phones"><a href="#">Phones</a></li>
-                <li class="menuprincipal" id="Earbuds"><a href="#">Earbuds</a></li>
-                <li class= "menuprincipal" id="Watches"><a href="#">Watches</a></li>
-                <li class= "menuprincipal" id="Smarthome"><a href="#">Smart Home</a></li>
-                <li class= "menuprincipal" id="Accessories"><a href="#">Accesories</a></li>
-                <li class="menuprincipal" id="Subscriptions"><a href="#">Subscriptions</a></li>
-            </ul>
-            <div>
-                <a href="#">
-                <img src="logos iconos/icons/Search.svg" id="Search" alt="search">
-                </a>
-                <a href="#">
-                <img src="logos iconos/icons/Help.svg" id="Help" alt="help">
-                </a>
-                <a href="#">
-                <img src="logos iconos/icons/Cart.svg" id="Cart" alt="cart">
-                </a>
-                <a href="#">
-                <img src="logos iconos/icons/Avatar.svg" id="Search" alt="avatar">
-                </a>
-            </div>
-     </nav>
-    </header>
+            <a href="#">
+            <img src="logos iconos/icons/Help.svg" id="Help" alt="Help" class="iconito">
+            </a>
+            <a href="#">
+            <img src="logos iconos/icons/Cart.svg" id="Cart" alt="Cart" class="iconito">
+            </a>
+            <a href="#">
+            <img src="logos iconos/icons/Avatar.svg" id="Search" alt="Avatar" class="iconito">
+            </a>
+           </div>
+          </section>
+         </nav>
+        </header>
     <main>
-
-        see products
-
-        <div>
+        <section class="Seeproduct">
+            <a href="#"><img src="logos iconos/icons/Arrow.svg" id="Arrow" alt="Arrow" class="flecha"></a>
+            <p>See product details</p>
+           </section>
+                <div class="grande">
             <a href="#">
-            <img src="logos iconos/watches/watches_01.png" id="watches_01" alt="Imagen detalle smartwatch midnight zen">
-            </a>
-            <a href="#">
-            <img src="logos iconos/watches/watches.png" id="watches_02" alt="Imagen smartwatch midnight zen">
-            </a>
-            <a href="#">
-            <img src="logos iconos/watches/watches.png" id="watches_03" alt="Imagen smartwatch lilac bliss">
-            </a>
-            <a href="#">
-            <img src="logos iconos/watches/watches_04.png" id="watches_04" alt="imagen smartwatch morning glow">
-            </a>
-        </div>
-
-        <div>
-            <a href="#">
-                <img src="logos iconos/watches/watches_01.png" id="watches" alt="imagen reloj">
+                <img src="smartwatch/smartwatch_black.png" id="watches" alt="imagen reloj" class= "imagengrande">
                 </a>
         </div>
+        <section class="partederecha">
+            <section class="description">
         <div>
-            <h1>Google Pixel Buds Pro</h1>
-            <p class="subtitle">Fitbire Inspire 3</p>
+            <h1>Fitbit Inspire 3</h1>
+            <p class="subtitle">Health & Fitness Tracker</p>
             <p class="price">99,95€</p>
-            <hr>
+            </div>
+            <div><hr></div>
             <p class="colors">Choose a color</p>
             <div class="colores">
-                <button id="midnight zen"></button>
-                <button>lilac bliss</button>
-                <button>morning glow</button>
-    
+                <a href="#">
+                    <img src="smartwatch/smartwatch_black.png" id="watches" alt="imagen reloj" class="negro">
+                    </a>
+                    <a href="#">
+                        <img src="smartwatch/smartwatch_pink.png" id="watches" alt="imagen reloj" class="rosa">
+                        </a>
+                        <a href="#">
+                            <img src="smartwatch/smartwatch_yellow.png" id="watches" alt="imagen reloj" class="amarillo">
+                            </a>    
             </div>
-            colores
-        </div>
-
-        <div>
-            <p class="pricemini">99,95 €</p>
-            <hr>
-            <div class="cantidad-container">
-            <button type="number" id="cantidad" class="cantidad-input" value="1" min="1"></button>   
-            </div>
-            <button type="submit">Add to Cart</button>
-            <a href="#">
-                <img src="logos iconos/icons/Delivery.svg" id="Delivery" alt="">
-                </a>
-                <p>Delivers 29 Apr to 08023</p>
-        </div> 
-
-
-    </main>
+            </section>
+            </section>
+            <section class="cajita">
+                <div>
+                 <p class="pricemini">99,95 €</p>
+                 <hr class="rallitacajita">
+                </div>
+               <section class="botones">
+                <div class="cantidad-container">
+                 <input type="number" id="cantidad" class="cantidad-input" value="1" min="1"></input>   
+                </div>
+                 <button class="añadir" type="submit">Add to Cart</button>
+               </section>
+               <section class="delivery">
+            </main>
     <footer>
         <div>
             <a href="#">

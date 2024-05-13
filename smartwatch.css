@@ -1,7 +1,6 @@
 body {
   margin: 0%;
 }
-
 .container {
   font-family: Inter, sans-serif;
   display: flex;
@@ -12,22 +11,18 @@ body {
   color: #808990;
   font-size: 16px;
 }
-
 .azulito {
   color: #1a73e8;
   font-weight: bold;
 }
-
 .icongoogle {
   display: flex;
   width: 30px;
 }
-
 #loguito {
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-
 .nav-links {
   display: flex;
   align-items: center;
@@ -41,64 +36,168 @@ body {
   margin-right: 20px;
   padding: 0%;
 }
-
 .iconitos {
   display: flex;
+  margin-right: 450px;
 }
-
 .iconito {
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 15px ;
 }
-
 a {
   text-decoration: none;
   color: black;
 }
-
-
+.cuerpo {
+  display: flex;
+}
 .Seeproduct {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
   padding: 20px;
- color: #57626B;
- font-family: Inter, sans-serif;
+  color: #57626B;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
 }
-
 .flecha {
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.imagenes {
+  display: flex;
   margin-right: 20px;
 }
 
+.imagengrande {
+  display: flex;
+  width: 600px;
+  height: 500px;
+  border-radius: 5%;
+  background-color: #f8f9fb;
+  margin-top: 120px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+  margin-left: 30px;
+  width: 500px;
+  height: 350px;
+}
+.partederecha {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: Inter, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #353A49;
+  margin-top: 5px;
+}
+.subtitle {
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  color: #57626B;
+  margin-top: 10px;
+}
+.price {
+  font-family: Inter, sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 1%;
+  color: #353A49;
+}
+.hr {
+  color: #58626b;
+  margin-top: 1%;
+}
 
-.imagenesredonditas {
+.colores {
+  display: flex;
+}
+
+.negro {
+  width: 150px;
+}
+.rosa {
+  width: 150px;
+}
+.amarillo {
+  width: 150px;
+}
+
+.cajita {
+  border-radius: 5%;
+  margin-left: 30px;
+  width: 500px;
+  height: 250px;
+  background-color: #f8f9fb;
+  margin-bottom: 40px;
+}
+.pricemini {
+  font-family: Inter, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 2px;
+}
+.rallitacajita {
+  display: flex;
+  color: #58626b;
+  margin-left: 20px;
+}
+.botones {
+  display: flex;
+}
+.cantidad-input {
+  height: 60px;
+  margin-left: 20px;
+  width: 70px;
+  padding: 5px; 
+  border-radius: 5px; 
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.añadir {
+  display: flex;
+  width: 375px;
+  height: 70px;
+  background-color: #1a73e8;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 140px;
+  margin-top: 20px;
+  border: 1px solid #1a73e8;
+}
+.delivery {
+  display: flex;
+  margin-top: 30px;
+}
+.camion {
 display: flex;
-flex-direction: column;
-margin-top: 18%;
+margin-right: 20px;
+margin-top: 18px;
+color: #57626b;
 }
-
-
-#smartwatch{
-  width: 2%;
- 
+.postal {
+  color: #1a73e8;
 }
-#smartwatch_01, #smartwatch_02, #smartwatch_03, #smartwatch_04 {
-  width: 5%;
-  border-radius: 50%;
-  border: 2px solid black;
-  margin-bottom: 2%;
-  margin-left: 3%;
-  
+.desdelivery {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
-
-
-
-
-
-
 .pie {
   font-family: Inter, sans-serif;
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 20px 0;
   background-color: #f8f9fb;
@@ -107,12 +206,15 @@ margin-top: 18%;
 }
 .redes{
   margin-top: 20px;
-  margin: 0 10px;
+  margin-left: 200px;
+  margin-right: 180px;
   font-size: 20px;
   color: #666;
 }
 .banderita {
   justify-content: center;
+  margin-left: 250px;
+  margin-right: 20px;
 }
 .footer-terms {
   display: flex;
@@ -125,6 +227,6 @@ margin-top: 18%;
   margin: 0px 5px;
 }
 .terms {
-  margin-right: 20px;
+  margin-right: 50px;
   padding: 0%;
-}
+} 
